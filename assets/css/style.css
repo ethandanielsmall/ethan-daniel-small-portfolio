@@ -26,11 +26,17 @@ p {
 }
 
 .header h1 {
-    display: inline;
+    display: inline-block;
+    font-size: 50px;
+}
+
+.header div {
+    float: right
 }
 
 .header div ul li {
-    padding-top: 10px;
+    padding-top: 30px;
+    padding-right: 10px;
     margin-right: 20px;
     list-style-type: style;
     display: inline-block;
