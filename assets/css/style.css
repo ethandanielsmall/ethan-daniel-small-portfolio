@@ -10,8 +10,20 @@ body {
 }
 
 .header {
-    position: sticky;
+    padding: 10px 16px;
+    background: #555;
+    color: #f1f1f1;
 }
+
+.p {
+    padding: 16px;
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%
+  }
 
 .image {
     height: 800px;
