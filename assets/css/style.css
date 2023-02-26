@@ -9,6 +9,11 @@ body {
     background-color: #dadbe0;
 }
 
+nav {
+    position:sticky;
+    top: 0;
+}
+
 .header {
     padding: 10px 16px;
     background: #555;
@@ -18,12 +23,6 @@ body {
 .p {
     padding: 16px;
 }
-
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%
-  }
 
 .image {
     height: 800px;
