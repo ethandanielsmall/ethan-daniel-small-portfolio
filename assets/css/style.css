@@ -14,9 +14,14 @@ nav {
     top: 0;
 }
 
-p {
+section {
     padding: 16px;
     color: #072235;
+    font-family: Arial, Helvetica, sans-serif
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .header {
@@ -28,6 +33,7 @@ p {
 .header h1 {
     display: inline-block;
     font-size: 50px;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .header div {
@@ -40,6 +46,7 @@ p {
     margin-right: 20px;
     list-style-type: style;
     display: inline-block;
+    font-family: Arial, Helvetica, sans-serif
 }
 
 .laptop-image {
