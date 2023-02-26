@@ -2,17 +2,14 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
+    color: #072235
 }
 
 body {
-    background-color: #eac2c4;
+    background-color: #dadbe0;
 }
 
-h1 {
-    position: sticky;
-}
-
-.nav {
+.header {
     position: sticky;
 }
 
