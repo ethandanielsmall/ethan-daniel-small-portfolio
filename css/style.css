@@ -8,6 +8,10 @@ body {
     background-color: eac2c4
 }
 
+h1 {
+    position: sticky
+}
+
 
 
 /* color pallette:
