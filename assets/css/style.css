@@ -14,19 +14,30 @@ nav {
     top: 0;
 }
 
+p {
+    padding: 16px;
+    color: #072235;
+}
+
 .header {
     padding: 10px 16px;
     color: #dadbe0;
     background: #072235;
 }
 
-.p {
-    padding: 16px;
-    color: #072235;
+.header h1 {
+    display: inline;
+}
+
+.header div ul li {
+    padding-top: 10px;
+    margin-right: 20px;
+    list-style-type: style;
+    display: inline-block;
 }
 
 .laptop-image {
-    height: 800px;
+    height: 500px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
@@ -36,8 +47,6 @@ nav {
 
 
 /* color pallette:
-grey-blue: c6d1d5
-brown-grey: 514e50
-purple: 927085
-pink: eac2c4
-green: a9baaa*/
+light grey: #dadbe0
+dark blue: #072235 
+*/
