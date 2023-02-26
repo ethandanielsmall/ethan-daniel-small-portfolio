@@ -2,7 +2,7 @@
     box-sizing: border-box;
     padding: 0;
     margin: 0;
-    color: #072235
+
 }
 
 body {
@@ -16,12 +16,13 @@ nav {
 
 .header {
     padding: 10px 16px;
-    background: #555;
-    color: #f1f1f1;
+    color: #dadbe0;
+    background: #072235;
 }
 
 .p {
     padding: 16px;
+    color: #072235;
 }
 
 .laptop-image {
