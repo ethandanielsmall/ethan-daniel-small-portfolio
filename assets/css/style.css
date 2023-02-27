@@ -14,16 +14,6 @@ nav {
     top: 0;
 }
 
-section {
-    padding: 16px;
-    color: #072235;
-    font-family: Arial, Helvetica, sans-serif
-}
-
-footer {
-    font-family: Arial, Helvetica, sans-serif
-}
-
 .header {
     padding: 10px 16px;
     color: #dadbe0;
@@ -44,7 +34,6 @@ footer {
     padding-top: 30px;
     padding-right: 10px;
     margin-right: 20px;
-    list-style-type: style;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif
 }
@@ -56,6 +45,27 @@ footer {
     background-size: cover;
     background-position: center;
     background-image: url(https://64.media.tumblr.com/2dd1338a4ac70402fee7307e8d1a2248/3355988fa0239f07-66/s2048x3072/5b867746f356ee748543a00880ef10d320cd0966.pnj);
+}
+
+section {
+    height: 350px;
+    padding: 2%;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    text-align: justify;
+    color: #072235;
+    background-color: #abc5e0;
+}
+
+.experience, .personal {
+    display: inline-block;
+    width: 30%;
+    margin-left: 5%;
+    margin-right: 5%;
+}
+
+footer {
+    font-family: Arial, Helvetica, sans-serif
 }
 
 
