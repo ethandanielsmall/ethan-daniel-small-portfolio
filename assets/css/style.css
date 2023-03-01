@@ -9,13 +9,6 @@ body {
     background-color: #fff;
 }
 
-h2 {
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    float: left;
-    padding-top: 10%;
-}
-
 .header {
     padding: 10px 16px;
     color: #072235;
@@ -49,28 +42,34 @@ h2 {
     background-image: url(https://64.media.tumblr.com/2dd1338a4ac70402fee7307e8d1a2248/3355988fa0239f07-66/s2048x3072/5b867746f356ee748543a00880ef10d320cd0966.pnj);
 }
 
-section, footer {
+section {
     height: 10%;
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
-    font-size: 20px;
+    font-size: 130%;
     color: #072235;
     background-color: #fff;
     float: center;
     width: 90%;
     margin: 2%;
+    display: inline-flex;
 }
 
 .sections section h2 {
     font-size: 50px;
+    display: inline-flex;
+    padding-right: 5%;
 }
 
-footer div ul li {
+section div ul li {
+    display: inline-flex;
+}
+
+section div ul li {
     text-decoration: underline;
     text-underline-offset: 50%;
-    display: inline-block;
     padding-left: 5%;
-    font-size: 20px;
+    font-size: 100%;
     font-family: Arial, Helvetica, sans-serif;
     color: #072235;
 }
