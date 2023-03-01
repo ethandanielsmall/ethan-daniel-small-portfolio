@@ -16,21 +16,20 @@ body {
 }
 
 .header h1 {
-    display: inline;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    display: inline-flex;
 }
 
-.header div {
-    float: right;
+.header div{
+    padding-left: 75%;
 }
 
 .header div ul li {
     display: inline-flex;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
-    text-align: center;
-    margin-right: 2%;
+    margin-left: 4%;
 }
 
 .laptop-image {
