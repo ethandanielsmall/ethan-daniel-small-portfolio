@@ -9,11 +9,6 @@ body {
     background-color: #dadbe0;
 }
 
-nav {
-    position:sticky;
-    top: 0;
-}
-
 .header {
     padding: 10px 16px;
     color: #072235;
@@ -54,7 +49,7 @@ nav {
 }
 
 section {
-    height: 350px;
+    height: 10%;
     padding: 2%;
     font-family: Arial, Helvetica, sans-serif;
     font-size: 25px;
@@ -73,11 +68,12 @@ footer {
 
 footer div ul li {
     text-decoration: underline;
+    text-underline-offset: 50%;
     display: inline-block;
     padding-left: 5%;
-    color: #072235;
     font-size: 20px;
     font-family: Arial, Helvetica, sans-serif;
+    color: #072235;
 }
 
 
