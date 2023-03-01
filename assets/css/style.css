@@ -16,20 +16,21 @@ body {
 }
 
 .header h1 {
-    display: inline-block;
+    display: inline;
     font-size: 50px;
     font-family: Arial, Helvetica, sans-serif
 }
 
 .header div {
-    float: right
+    float: right;
 }
 
 .header div ul li {
-    padding: 3%;
-    margin-right: 20px;
-    display: inline-block;
-    font-family: Arial, Helvetica, sans-serif
+    display: inline-flex;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-align: center;
+    margin-right: 2%;
 }
 
 .laptop-image {
@@ -58,6 +59,7 @@ section {
     background-color: #9ec9cc;
     float: right;
     width: 70%;
+    margin: 2%;
 }
 
 footer {
