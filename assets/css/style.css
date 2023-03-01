@@ -16,7 +16,7 @@ nav {
 
 .header {
     padding: 10px 16px;
-    color: #dadbe0;
+    color: #072235;
     background: #9ec9cc;
 }
 
@@ -31,20 +31,26 @@ nav {
 }
 
 .header div ul li {
-    padding-top: 30px;
-    padding-right: 10px;
+    padding: 3%;
     margin-right: 20px;
     display: inline-block;
     font-family: Arial, Helvetica, sans-serif
 }
 
 .laptop-image {
-    height: 500px;
+    height: 200px;
     width: 100%;
     margin-bottom: 25px;
     background-size: cover;
     background-position: center;
     background-image: url(https://64.media.tumblr.com/2dd1338a4ac70402fee7307e8d1a2248/3355988fa0239f07-66/s2048x3072/5b867746f356ee748543a00880ef10d320cd0966.pnj);
+}
+
+.asides {
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    float: left;
+    padding-top: 10%;
 }
 
 section {
@@ -54,22 +60,28 @@ section {
     font-size: 25px;
     text-align: justify;
     color: #072235;
-    background-color: #abc5e0;
-}
-
-.experience, .personal {
-    display: inline-block;
-    width: 30%;
-    margin-left: 5%;
-    margin-right: 5%;
+    background-color: #9ec9cc;
+    float: right;
+    width: 70%;
 }
 
 footer {
-    font-family: Arial, Helvetica, sans-serif
+    font-family: Arial, Helvetica, sans-serif;
+    float: right;
+    width: 70%;
+}
+
+footer div ul li {
+    text-decoration: underline;
+    display: inline-block;
+    padding-left: 5%;
+    color: #072235;
+    font-size: 20px;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 
 /* color pallette:
-light grey: #dadbe0
-dark blue: #072235 
+blue: #9ec9cc
+navy: #072235
 */
