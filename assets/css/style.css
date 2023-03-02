@@ -60,6 +60,12 @@ section {
     padding-right: 5%;
 }
 
+.sections section p, images, section div ul {
+    border-left: 6px solid #072235;
+    height: 100%;
+    padding: 5%;
+}
+
 section div ul li {
     display: inline-flex;
 }
