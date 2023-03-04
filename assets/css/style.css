@@ -23,7 +23,10 @@ a {
     color: #475774;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     padding-left: 4%;
+    padding-bottom: 4%;
     font-size: 25px;
+    text-decoration: underline;
+    text-underline-offset: 40%;
 }
 
 .header h1 {
