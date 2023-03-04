@@ -97,6 +97,9 @@ section images img {
     height: 100%;
     width: 30vw;
     cursor: pointer;
+    border-color: aqua;
+    border-style: solid;
+    border-width: medium;
 }
 
 section images div img {
@@ -122,6 +125,8 @@ section images div img:hover {
     opacity: 0.4;
     transition: .5s ease;
 }
+
+
 
 
 /* color palette:
