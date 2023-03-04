@@ -9,7 +9,7 @@ body {
     background-color: #fff;
 }
 
-.href {
+a {
     cursor: pointer;
 }
 
@@ -93,11 +93,13 @@ section div ul li {
 section images img {
     height: 100%;
     width: 30vw;
+    cursor: pointer;
 }
 
 section images div img {
     height: 100%;
     width: 60vw;
+    cursor: pointer;
 }
 
 section images img:hover {
