@@ -93,20 +93,31 @@ section div ul li {
 section images img {
     height: 100%;
     width: 30vw;
-    overflow: hidden;
-    object-fit: fill;
-    opacity: 0.4;
-    background: black;
 }
 
 section images div img {
     height: 100%;
     width: 60vw;
+}
+
+section images img:hover {
+    height: 100%;
+    width: 30vw;
     overflow: hidden;
     object-fit: fill;
     opacity: 0.4;
-    background: black;
+    transition: .5s ease;
 }
+
+section images div img:hover {
+    height: 100%;
+    width: 60vw;
+    overflow: hidden;
+    object-fit: fill;
+    opacity: 0.4;
+    transition: .5s ease;
+}
+
 
 /* color palette:
 blue: #9ec9cc
