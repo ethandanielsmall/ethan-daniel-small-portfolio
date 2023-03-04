@@ -80,6 +80,13 @@ section div ul li {
     color: #475774;
 }
 
+.row {
+    background: rgba(39,62,84,0.82);
+    overflow: hidden;
+    height: 100%;
+    z-index: 2;
+}
+
 
 /* color palette:
 blue: #9ec9cc
