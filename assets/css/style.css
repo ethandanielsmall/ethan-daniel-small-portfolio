@@ -9,28 +9,39 @@ body {
     background-color: #fff;
 }
 
+a {
+    cursor: pointer;
+}
+
 .header {
-    padding: 10px 16px;
+    padding: 10px;
     color: #475774;
     background: #9ec9cc;
+}
+
+.header a {
+    color: #475774;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    padding-left: 4%;
+    font-size: 25px;
 }
 
 .header h1 {
     font-size: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     display: inline-flex;
+    background-color: aqua;
+    z-index: 10;
 }
 
-.header div{
-    padding-left: 75%;
-}
-
-.header div ul li {
-    display: inline-flex;
-    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
-    font-size: 20px;
-    margin-left: 4%;
-}
+/*.header h1::before {
+    content: "";
+    left: -50vw; /* adjust the value to cover the desired area *//*
+    width: 51%;
+    height: 58px;
+    background-color: aqua;
+    z-index: 1;
+}*/
 
 .laptop-image {
     height: 200px;
@@ -43,7 +54,6 @@ body {
 
 section {
     height: 10%;
-    padding: 2%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     font-size: 130%;
     color: #475774;
@@ -80,13 +90,23 @@ section div ul li {
     color: #475774;
 }
 
-.row {
-    background: rgba(39,62,84,0.82);
-    overflow: hidden;
+section images img {
     height: 100%;
-    z-index: 2;
+    width: 30vw;
+    overflow: hidden;
+    object-fit: fill;
+    opacity: 0.4;
+    background: black;
 }
 
+section images div img {
+    height: 100%;
+    width: 60vw;
+    overflow: hidden;
+    object-fit: fill;
+    opacity: 0.4;
+    background: black;
+}
 
 /* color palette:
 blue: #9ec9cc
