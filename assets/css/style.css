@@ -1,3 +1,4 @@
+/* style rules for the entire webpage */
 * {
     box-sizing: border-box;
     padding: 0;
@@ -5,19 +6,23 @@
 
 }
 
+/* style rules for all body elements */
 body {
     background-color: #fff;
 }
 
+ /* style rules for all anchor tags */
 a {
     cursor: pointer;
 }
 
+ /* style rules for all header elements */
 .header {
     padding: 10px;
     color: #475774;
     background: #9ec9cc;
 }
+
 
 .header a {
     color: #475774;
@@ -29,6 +34,7 @@ a {
     text-underline-offset: 40%;
 }
 
+
 .header h1 {
     font-size: 50px;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -37,15 +43,7 @@ a {
     z-index: 10;
 }
 
-/*.header h1::before {
-    content: "";
-    left: -50vw; /* adjust the value to cover the desired area *//*
-    width: 51%;
-    height: 58px;
-    background-color: aqua;
-    z-index: 1;
-}*/
-
+ /* style rules for the laptop header image */
 .laptop-image {
     height: 200px;
     width: 100%;
@@ -55,6 +53,7 @@ a {
     background-image: url(https://64.media.tumblr.com/2dd1338a4ac70402fee7307e8d1a2248/3355988fa0239f07-66/s2048x3072/5b867746f356ee748543a00880ef10d320cd0966.pnj);
 }
 
+ /* style rules for all sections */
 section {
     height: 10%;
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -67,6 +66,7 @@ section {
     display: inline-flex;
 }
 
+ /* style rules for section headers */
 .sections section h2 {
     font-size: 50px;
     display: inline-flex;
@@ -74,17 +74,16 @@ section {
     font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
+ /* style rules for deorative vertical lines */
 .sections section p, images, section div ul {
     border-left: 6px solid #475774;
     height: 100%;
     padding: 5%;
 }
 
+ /* style rules for how the contact me links are lined up with eachother */
 section div ul li {
     display: inline-flex;
-}
-
-section div ul li {
     text-decoration: underline;
     text-underline-offset: 50%;
     padding-left: 5%;
@@ -93,6 +92,7 @@ section div ul li {
     color: #475774;
 }
 
+ /* style rules for main images */
 section images img {
     height: 100%;
     width: 30vw;
@@ -108,6 +108,7 @@ section images div img {
     cursor: pointer;
 }
 
+ /* style rules for main images when being hovered over */
 section images img:hover {
     height: 100%;
     width: 30vw;
